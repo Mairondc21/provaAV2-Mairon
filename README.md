@@ -8,7 +8,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE EcommerceApplication(APPLICATION)
 
-![ecommerceApplication.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/d0ac3a08-1523-445d-b47b-907a4676f03d/ecommerceApplication.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/ecommerceApplication.PNG'>
 
 **Descrição**:
 
@@ -20,7 +20,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AppCongig(CONFIG)
 
-![AppConfig.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/9af04792-a38e-4498-af38-99d131b43b3f/AppConfig.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/AppConfig.PNG'>
 
 **Descrição**:
 
@@ -36,7 +36,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AuthController(CONTROLLER)
 
-![AuthController.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/77607b80-b3d1-457e-b6ba-06f008f1e8cc/AuthController.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/AuthController.PNG'>
 
 **Descrição**:
 
@@ -49,7 +49,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE User(MODEL)
 
-![usercode.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/25aa8160-6f5b-4e8f-96f0-d8a4ecdc9ae5/usercode.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/usercode.PNG'>
 
 **Descrição**:
 
@@ -61,7 +61,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE UserRepostirory(REPOSITORY)
 
-![UserRepository.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/bc08d859-7f97-4607-a030-9cbbf60c4e10/UserRepository.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/UserRepostirory.PNG'>
 
 **Descrição**:
 
@@ -73,7 +73,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE JwtAuthenticationFilter(SECURITY)
 
-![JwtAuthenticationFilter.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/de68bcc0-1658-4741-b26a-d250ea546641/JwtAuthenticationFilter.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/JwtAuthenticationFilter.PNG'>
 
 **Descrição**:
 
@@ -83,9 +83,9 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE JwtUtil(SECURITY)
 
-![JwtUtil.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/bfb7edbd-b90e-41cd-864a-757c175eea1c/JwtUtil.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/JwtUtil.PNG'>
 
-![JwtUtil2.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/824def37-b12f-4ca9-a96b-10f233a2cb31/JwtUtil2.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/JwtUtil2.PNG'>
 
 **Descrição**:
 
@@ -99,7 +99,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE AuthService(SERVICE)
 
-![AuthService.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/c40012b5-54b8-4832-af74-dea7dd09def5/AuthService.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/AuthService.PNG'>
 
 **Descrição**:
 
@@ -110,8 +110,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE UserService(SERVICE)
 
-![UserService.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/c2888f5a-2715-468b-9215-40c9a1069754/UserService.png)
-
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/UserService.PNG'>
 **Descrição**:
 
 - **@Service**: Marca a classe como um serviço do Spring.
@@ -121,7 +120,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE SecretKeyGenerator(TEST)
 
-![SecretKeyGenerator.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/6543687b-4a8a-4878-8353-201edc7a4b0d/SecretKeyGenerator.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/SecretKeyGenerator.PNG'>
 
 **Descrição**:
 
@@ -130,9 +129,9 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 # DIAGRAMA
 
-![diagrama.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/975f6509-56be-4a19-9341-946485d69fd7/diagrama.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/diagrama.PNG'>
 
-![diagrama2.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/b438f759-a926-4a88-a222-169aa58f53f6/diagrama2.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/diagrama2.PNG'>
 
 ### Explicação Passo a Passo do Diagrama
 
@@ -156,18 +155,18 @@ Para se iniciar a aplicação execute primeiro a classe de **SecretKeyGenerator*
 
 ## Register.html
 
-![register.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/7c48ede2-d46b-4e90-90a1-d549bcf30146/register.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/register.PNG'>
 
 - **register.html**: Página de registro que permite ao usuário criar uma nova conta.
 - **Formulário de Registro**: Envia uma requisição POST para `/register` com o nome de usuário, senha e role.
 - **Script JavaScript**: Processa a resposta do servidor e redireciona o usuário para a página de login.
 - Depois de registrar pela aba de /register.html, o usuario é cadastrado no banco de dados
 
-![banco.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/463f6ec7-9441-499d-8998-0a4036f8336e/banco.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/banco.PNG'>
 
 ## Login.html
 
-![login.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/430ee396-e516-4dc7-a03c-5ea81e1212c5/login.png)
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/login.PNG'>
 
 - **login.html**: Página de login que permite ao usuário inserir seu nome de usuário e senha.
 - **Formulário de Login**: Envia uma requisição GET para `/login` com o nome de usuário e senha.
