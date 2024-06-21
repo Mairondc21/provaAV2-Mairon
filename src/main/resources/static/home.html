@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+        .admin, .moderador, .user {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Bem-vindo à Página Inicial</h1>
+<div id="user-section">
+  <h2>Seção de Usuário</h2>
+  <label>Informação visível para todos os usuários</label>
+</div>
+<div id="moderador-section" class="moderador">
+  <h2>Seção de Moderador</h2>
+  <label>Informação adicional para moderadores</label>
+  <button onclick="addField()">Adicionar Campo</button>
+</div>
+<div id="admin-section" class="admin">
+  <h2>Seção de Admin</h2>
+  <label>Informação adicional para administradores</label>
+  <button onclick="addField()">Adicionar Campo</button>
+  <button onclick="removeField()">Remover Campo</button>
+</div>
+<div id="common-section">
+  <h2>Campos Adicionados</h2>
+  <div id="dynamic-fields"></div>
+</div>
+
+<script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            const token = localStorage.getItem('token');
+            if (!token) {
+                alert('Usuário não autenticado!');
+                window.location.href = '/login.html';
+                return;
+            }
+
+            const roleResponse = await fetch(`/role/${token}`, {
+                method: 'GET'
+            });
+
+            if (roleResponse.ok) {
+                const role = await roleResponse.text();
+                document.querySelectorAll('.user').forEach(e => e.style.display = 'block');
+                if (role === 'ADMIN') {
+                    document.querySelectorAll('.admin').forEach(e => e.style.display = 'block');
+                    document.querySelectorAll('.moderador').forEach(e => e.style.display = 'block');
+                } else if (role === 'MODERADOR') {
+                    document.querySelectorAll('.moderador').forEach(e => e.style.display = 'block');
+                }
+                loadDynamicFields();
+            } else {
+                alert('Erro ao obter role do usuário.');
+                window.location.href = '/login.html';
+            }
+        });
+
+        function addField() {
+            const newField = document.createElement('input');
+            newField.type = 'text';
+            newField.placeholder = 'Novo campo';
+            document.getElementById('dynamic-fields').appendChild(newField);
+            saveDynamicFields();
+        }
+
+        function removeField() {
+            const fields = document.getElementById('dynamic-fields');
+            if (fields.children.length > 0) {
+                fields.removeChild(fields.lastChild);
+                saveDynamicFields();
+            }
+        }
+
+        function saveDynamicFields() {
+            const fields = document.getElementById('dynamic-fields').innerHTML;
+            localStorage.setItem('dynamicFields', fields);
+        }
+
+        function loadDynamicFields() {
+            const fields = localStorage.getItem('dynamicFields');
+            if (fields) {
+                document.getElementById('dynamic-fields').innerHTML = fields;
+            }
+        }
+    </script>
+</body>
+</html>

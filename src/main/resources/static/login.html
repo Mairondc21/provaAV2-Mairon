@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<body>
+<h2>Login</h2>
+<form id="loginForm">
+  <label for="username">Nome do Utilizador:</label>
+  <input type="text" id="username" name="username" required><br>
+  <label for="password">Palavra-passe:</label>
+  <input type="password" id="password" name="password" required><br>
+  <button type="submit">Iniciar Sessão</button>
+</form>
+<script>
+        document.getElementById('loginForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const response = await fetch(`/login?username=${username}&password=${password}`, {
+                    method: 'GET'
+                });
+
+                if (response.ok) {
+                    const token = await response.text();
+                    localStorage.setItem('token', token);
+
+                    window.location.href = '/home.html';
+                } else {
+                    const errorText = await response.text();
+                    console.error('Erro de login:', errorText); // Log do erro de login
+                    alert('Erro: ' + errorText);
+                }
+            } catch (error) {
+                console.error('Erro na solicitação:', error); // Log de erro da solicitação
+                alert('Erro na solicitação: ' + error.message);
+            }
+        });
+    </script>
+</body>
+</html>
