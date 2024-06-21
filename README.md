@@ -61,7 +61,7 @@ Esse é um codigo que foi desenvolvido para autenticar e autorizar diferentes ti
 
 ### CLASSE UserRepostirory(REPOSITORY)
 
-<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/UserRepostirory.PNG'>
+<img src='https://github.com/Mairondc21/provaAV2-Mairon/blob/master/img/UserRepository.PNG'>
 
 **Descrição**:
 
